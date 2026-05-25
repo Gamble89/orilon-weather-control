@@ -30,6 +30,6 @@
     ]
   },
   "socket": false,
-  "manifest": "",
-  "download": ""
+  "manifest": "https://raw.githubusercontent.com/Gamble89/orilon-weather-control/main/module.json",
+  "download": "https://github.com/Gamble89/orilon-weather-control/releases/download/v0.1.0/orilon-weather-control-module-v1.zip"
 }
