@@ -1,0 +1,35 @@
+{
+  "id": "orilon-weather-control",
+  "title": "Orilon Weather Control",
+  "description": "GM weather board with scene weather control, SFX/FX orchestration, token vision/effects, and client-side cinematic overlays.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "OpenAI for David Robinson"
+    }
+  ],
+  "esmodules": [
+    "scripts/client-runtime.js",
+    "scripts/orilon-weather-board.js"
+  ],
+  "styles": [],
+  "relationships": {
+    "requires": [
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ghost-fvtt/fxmaster/master/module.json",
+        "compatibility": {
+          "minimum": "8.0.0"
+        }
+      }
+    ]
+  },
+  "socket": false,
+  "manifest": "",
+  "download": ""
+}
